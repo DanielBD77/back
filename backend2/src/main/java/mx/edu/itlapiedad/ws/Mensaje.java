@@ -64,7 +64,7 @@ public class Mensaje {
 	@GetMapping("sumar/{n1}/{n2}")
 	public int suma(@PathVariable int n1,@PathVariable int n2) {
 		int res = 0;
-		res = n1 +n2;
+		res = n1 *n2;
 		
 		return res;
 	}
