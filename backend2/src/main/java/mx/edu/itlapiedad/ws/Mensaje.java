@@ -65,7 +65,7 @@ public class Mensaje {
 	public int suma(@PathVariable int n1,@PathVariable int n2) {
 		int res = 0;
 		res = n1 *n2;
-		//multiplica Miguel XD 
+		//multiplica Miguel 
 		return res;
 	}
 	
